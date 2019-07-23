@@ -1,0 +1,31 @@
+/* font */
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap");
+
+/* imported componants */
+@import url("/components/buttons-K.css");
+@import url("/components/navbar-K.css");
+@import url("/components/SearchBox-K.css");
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+}
+body {
+  font-size: 1rem;
+}
+
+.main-content {
+  text-align: center;
+}
+.header-logo {
+  width: 18rem;
+}
+
+.language-K p a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.25em;
+}
+.language-K a:hover {
+  text-decoration: underline;
+}
